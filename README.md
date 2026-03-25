@@ -9,7 +9,7 @@ This type of system can help farmers detect plant diseases early and improve cro
 
 ## 📊 Dataset
 - Source: Kaggle PlantVillage Dataset  
-- Link: [PlantVillage Dataset](https://www.kaggle.com/datasets/arjuntejaswi/plant-village)
+- Link: [PlantVillage on Kaggle](https://www.kaggle.com/datasets/arjuntejaswi/plant-village)  
 
 ### Classes:
 - Potato___Early_blight  
@@ -64,15 +64,24 @@ A custom CNN model built using TensorFlow/Keras:
 |------|------|
 | Training Accuracy | 99.94% |
 | Validation Accuracy | 98.96% |
-| Test Accuracy | **98.44%** |
+| Test Accuracy | 98.44% |
 
 ---
 
 ## 🔍 Sample Prediction
 
-- Actual Label: Potato___Late_blight  
-- Predicted Label: Potato___Late_blight ✅  
+**First image to predict:**
+
+- Actual label: Potato___Late_blight  
+- Predicted label: Potato___Late_blight ✅  
+
+![Sample Prediction](images/sample_prediction.png)  <!-- optional if you add image -->
 
 ---
 
+## ▶️ How to Run the Project
 
+1. **Clone Repository**
+```bash
+git clone https://github.com/your-username/potato-disease-classification-cnn.git
+cd potato-disease-classification-cnn
