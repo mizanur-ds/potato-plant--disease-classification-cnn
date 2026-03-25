@@ -75,7 +75,4 @@ A custom CNN model built using TensorFlow/Keras:
 
 ---
 
-## 🧪 Model Evaluation
-```python
-scores = model.evaluate(test_ds)
-print(f"Test Accuracy: {scores[1]*100:.2f}%")
+
