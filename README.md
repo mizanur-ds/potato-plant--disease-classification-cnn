@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 This project uses a Convolutional Neural Network (CNN) to classify potato leaf diseases from images. The model can identify whether a leaf is affected by **Early Blight**, **Late Blight**, or is **Healthy**.
 
-This type of system can help farmers detect plant diseases early and improve crop yield using AI-based solutions.
+This project will farmers to detect potato plant diseases early.
 
 ---
 
@@ -67,21 +67,3 @@ A custom CNN model built using TensorFlow/Keras:
 | Test Accuracy | 98.44% |
 
 ---
-
-## 🔍 Sample Prediction
-
-**First image to predict:**
-
-- Actual label: Potato___Late_blight  
-- Predicted label: Potato___Late_blight ✅  
-
-![Sample Prediction](images/sample_prediction.png)  <!-- optional if you add image -->
-
----
-
-## ▶️ How to Run the Project
-
-1. **Clone Repository**
-```bash
-git clone https://github.com/your-username/potato-disease-classification-cnn.git
-cd potato-disease-classification-cnn
